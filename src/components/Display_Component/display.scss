@@ -1,0 +1,16 @@
+@import '../../scss/config';
+
+#display-container {
+    background-color: $screen_bg;
+    padding: 1.2vw;
+    margin: 10px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+
+    #display {
+        height: 10vh;
+        font-family: $display_font;
+        font-size: 2.7rem;
+    }
+}

@@ -1,0 +1,18 @@
+@import "./config";
+
+
+#drum-machine {
+    background-color: $bg;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+    &__container {
+        background-color: $drum_machine_bg;
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 20px;
+    }
+}
+
+

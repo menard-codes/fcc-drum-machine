@@ -1,0 +1,26 @@
+@import '../../scss/config';
+
+#drumpad_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .drum-pad {
+        padding: 3vh 3vw;
+        margin: 10px;
+        background-color: $button_bg;
+        border-radius: 20px;
+        font-family: $button_font;
+        font-size: 5rem;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $button_hover;
+        }
+
+        &:active {
+            background-color: $button_active;
+        }
+    }
+
+}
